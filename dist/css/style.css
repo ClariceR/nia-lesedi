@@ -156,4 +156,24 @@ a:hover {
     height: 80vh;
   }
 }
+
+.quote {
+  padding: 3rem;
+  text-align: center;
+  line-height: 1.7;
+}
+
+q {
+  color: #987557;
+  font-style: italic;
+}
+
+@media (min-width: 48em) {
+  .quote {
+    padding: 5rem;
+  }
+  q {
+    font-size: 1.5rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
