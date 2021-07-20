@@ -74,6 +74,10 @@ a:hover {
   }
 }
 
+.header {
+  padding-bottom: 2rem;
+}
+
 .header__mobile_menu-btn > span {
   display: block;
   width: 25px;
@@ -87,6 +91,7 @@ a:hover {
 
 .header__mobile_menu {
   width: 100%;
+  margin-top: 2rem;
   background-color: #3b243d;
 }
 
@@ -135,6 +140,20 @@ a:hover {
   }
   .header__mobile_menu {
     display: none;
+  }
+}
+
+.hero {
+  background-image: url("/img/pexels-jeanbaptiste-burbaud-1998251.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+@media (min-width: 48em) {
+  .hero {
+    height: 80vh;
   }
 }
 /*# sourceMappingURL=style.css.map */

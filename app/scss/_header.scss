@@ -1,4 +1,5 @@
 .header {
+  padding-bottom: 2rem;
   &__mobile_menu-btn {
     > span {
       display: block;
@@ -14,6 +15,7 @@
 
   &__mobile_menu {
     width: 100%;
+    margin-top: 2rem;
     background-color: $darkPurple;
 
     li {
