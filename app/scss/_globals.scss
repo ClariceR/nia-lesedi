@@ -36,7 +36,7 @@ a:hover {
 
 // Hide
 .hide {
-    display: none;
+  display: none;
 }
 
 //Flexbox
@@ -58,12 +58,11 @@ a:hover {
 
 //Container
 .container {
-  padding: 1rem;
+  padding: 1.25rem 1rem;
 }
 
 @media (min-width: 48em) {
-
-    .container {
-        padding: 65px 110px;
-    }
+  .container {
+    padding: 65px 110px;
+  }
 }

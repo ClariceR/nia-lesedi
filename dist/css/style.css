@@ -65,7 +65,7 @@ a:hover {
 }
 
 .container {
-  padding: 1rem;
+  padding: 1.25rem 1rem;
 }
 
 @media (min-width: 48em) {
