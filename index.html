@@ -21,12 +21,22 @@
   <body>
     <div class="container">
       <header class="header">
-        <nav class="flex flex-jc-sb">
+        <nav class="flex flex-jc-sb flex-ai-c">
           <a href="/" class="header__logo">
             <img src="/img/nia-logo.svg" alt="Nia Lesedi" />
           </a>
 
-          <a id="btnHamburger" href="#" class="header__menu-btn"></a>
+          <!-- Hamburger Menu only visible on mobile -->
+          <a id="btnHamburger" href="#" class="header__mobile_menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+
+          <!-- Nav menu only visible on Desktop -->
+          <ul class="header__desktop_menu flex flex-ai-c">
+            <li><a class="menu_item" href="#">About / Contact</a></li>
+          </ul>
         </nav>
       </header>
     </div>

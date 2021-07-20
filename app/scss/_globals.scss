@@ -16,6 +16,23 @@ body {
   font-family: "Merriweather Sans", sans-serif;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a {
+  color: $darkPurple;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
 //Flexbox
 .flex {
   display: flex;
@@ -35,5 +52,12 @@ body {
 
 //Container
 .container {
-    padding: 1rem;
+  padding: 1rem;
+}
+
+@media (min-width: 48em) {
+    
+    .container {
+        padding: 65px 110px;
+    }
 }

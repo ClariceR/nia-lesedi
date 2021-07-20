@@ -1,12 +1,49 @@
 .header {
-  
-    &__menu-btn {
-        display: block;
-        left: 50%;
-        margin: 1em;
-        position: absolute;
-        top: 50%;
-        width: 36px;
-        transform: translate(-50%, -50%);
+  &__mobile_menu-btn {
+    > span {
+      display: block;
+      width: 25px;
+      height: 2px;
+      background-color: $darkPurple;
+
+      &:not(:last-child) {
+        margin-bottom: 6px;
+      }
     }
+  }
+
+  &__desktop_menu {
+    li {
+      letter-spacing: 0.1rem;
+      color: $darkPurple;
+      padding-top: 0.75rem;
+      border-top: 2px solid $lightPurple;
+      &:not(:last-child) {
+        margin-right: 32px;
+      }
+    }
+    .menu_item:hover {
+      color: $lightPurple;
+    }
+  }
+}
+
+// -- Media queries --
+
+// Mobile only
+@media (max-width: 47.9375em) {
+  .header {
+    &__desktop_menu {
+        display: none;
+    }
+  }
+}
+
+// From tablet size (768px)
+@media (min-width: 48em) {
+  .header {
+    &__mobile_menu-btn {
+        display: none;
+    }
+  }
 }
