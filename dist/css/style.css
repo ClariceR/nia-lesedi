@@ -75,7 +75,7 @@ a:hover {
 }
 
 .header {
-  padding-bottom: 2rem;
+  padding-bottom: 1.625rem;
 }
 
 .header__mobile_menu-btn > span {
@@ -129,6 +129,9 @@ a:hover {
 }
 
 @media (max-width: 47.9375em) {
+  .header__logo img {
+    width: 9rem;
+  }
   .header__desktop_menu {
     display: none;
   }
