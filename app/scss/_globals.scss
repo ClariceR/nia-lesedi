@@ -14,6 +14,7 @@ body {
   padding: 0;
   line-height: 1.3;
   font-family: "Merriweather Sans", sans-serif;
+  background-color: $almostWhite;
 }
 
 ul {
@@ -31,6 +32,11 @@ a,
 a:visited,
 a:hover {
   text-decoration: none;
+}
+
+// Hide
+.hide {
+    display: none;
 }
 
 //Flexbox
@@ -56,7 +62,7 @@ a:hover {
 }
 
 @media (min-width: 48em) {
-    
+
     .container {
         padding: 65px 110px;
     }

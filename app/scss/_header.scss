@@ -4,7 +4,7 @@
       display: block;
       width: 25px;
       height: 2px;
-      background-color: $darkPurple;
+      background-color: $lightPurple;
 
       &:not(:last-child) {
         margin-bottom: 6px;
@@ -12,11 +12,34 @@
     }
   }
 
+  &__mobile_menu {
+    width: 100%;
+    background-color: $darkPurple;
+
+    li {
+      font-weight: 300;
+      letter-spacing: 0.1rem;
+      padding-top: 4rem;
+      text-align: center;
+    }
+
+    li:last-child {
+      padding-bottom: 4rem;
+    }
+
+    a {
+      color: $almostWhite;
+    }
+    a:hover {
+      color: $lightPurple;
+    }
+  }
+
   &__desktop_menu {
     li {
       letter-spacing: 0.1rem;
       color: $darkPurple;
-      
+
       &:not(:last-child) {
         margin-right: 3rem;
       }
@@ -34,7 +57,7 @@
 @media (max-width: 47.9375em) {
   .header {
     &__desktop_menu {
-        display: none;
+      display: none;
     }
   }
 }
@@ -43,7 +66,10 @@
 @media (min-width: 48em) {
   .header {
     &__mobile_menu-btn {
-        display: none;
+      display: none;
+    }
+    &__mobile_menu {
+      display: none;
     }
   }
 }
