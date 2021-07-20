@@ -1,0 +1,12 @@
+.header {
+  
+    &__menu-btn {
+        display: block;
+        left: 50%;
+        margin: 1em;
+        position: absolute;
+        top: 50%;
+        width: 36px;
+        transform: translate(-50%, -50%);
+    }
+}
