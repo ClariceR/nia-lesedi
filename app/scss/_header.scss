@@ -16,14 +16,14 @@
     li {
       letter-spacing: 0.1rem;
       color: $darkPurple;
-      padding-top: 0.75rem;
-      border-top: 2px solid $lightPurple;
+      
       &:not(:last-child) {
-        margin-right: 32px;
+        margin-right: 3rem;
       }
     }
     .menu_item:hover {
-      color: $lightPurple;
+      padding-top: 0.75rem;
+      border-top: 2px solid $lightPurple;
     }
   }
 }

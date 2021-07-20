@@ -83,16 +83,15 @@ a:hover {
 .header__desktop_menu li {
   letter-spacing: 0.1rem;
   color: #522556;
-  padding-top: 0.75rem;
-  border-top: 2px solid #c9cbde;
 }
 
 .header__desktop_menu li:not(:last-child) {
-  margin-right: 32px;
+  margin-right: 3rem;
 }
 
 .header__desktop_menu .menu_item:hover {
-  color: #c9cbde;
+  padding-top: 0.75rem;
+  border-top: 2px solid #c9cbde;
 }
 
 @media (max-width: 47.9375em) {
