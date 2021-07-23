@@ -72,12 +72,12 @@ a:hover {
 }
 
 .container {
-  padding: 1.25rem 1rem;
+  padding: 1.25rem 1rem 1rem 1rem;
 }
 
 @media (min-width: 48em) {
   .container {
-    padding: 65px 110px;
+    padding: 4.0625rem 6.875rem 3.125rem 6.875rem;
   }
 }
 
@@ -243,6 +243,23 @@ address {
   -ms-flex-item-align: end;
       align-self: flex-end;
   margin-bottom: 1rem;
+}
+
+.footer {
+  background-color: #3b243d;
+  color: #fbfbf3;
+  padding: 0.6rem;
+  text-align: center;
+}
+
+h6 {
+  margin: 0;
+  padding: 0.5rem 0;
+  font-weight: 300;
+}
+
+.cla-link {
+  color: #a1a6d4;
 }
 
 @media (min-width: 48em) {
