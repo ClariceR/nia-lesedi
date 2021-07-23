@@ -19,6 +19,10 @@ figcaption {
   padding: 0.625rem 0 2.5rem 0;
 }
 
+.line {
+    border-top: 2px solid $lightPurple;
+}
+
 // From tablet size (768px)
 @media (min-width: 48em) {
   .grid {

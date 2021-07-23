@@ -1,0 +1,28 @@
+.monogram {
+  margin: 1.5rem 0 1rem 0;
+  width: 50px;
+  height: 50px;
+}
+
+address {
+  font-style: normal;
+  color: $darkPurple;
+}
+
+.flickr {
+  align-self: flex-end;
+  margin-bottom: 1rem;
+}
+
+// .social-icon {
+//     margin: 1rem 0;
+// }
+
+// From tablet size (768px)
+@media (min-width: 48em) {
+  .monogram {
+    margin-top: 2rem;
+    width: 60px;
+    height: 60px;
+  }
+}
