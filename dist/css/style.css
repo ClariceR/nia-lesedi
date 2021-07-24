@@ -71,13 +71,19 @@ a:hover {
           align-items: center;
 }
 
+.flex-ai-bl {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
 .container {
   padding: 1.25rem 1rem 1rem 1rem;
 }
 
 @media (min-width: 48em) {
   .container {
-    padding: 4.0625rem 6.875rem 3.125rem 6.875rem;
+    padding: 3.125rem 6.875rem 3.125rem 6.875rem;
   }
 }
 
@@ -133,6 +139,13 @@ a:hover {
 .header__desktop_menu .menu_item:hover {
   padding-top: 0.75rem;
   border-top: 2px solid #a1a6d4;
+}
+
+.header__desktop_menu .insta-menu {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
 }
 
 @media (max-width: 47.9375em) {
@@ -278,6 +291,13 @@ h6 {
 
 .cla-link {
   color: #a1a6d4;
+}
+
+svg {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
 }
 
 @media (min-width: 48em) {

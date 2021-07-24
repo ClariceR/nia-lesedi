@@ -31,6 +31,14 @@ h6 {
   color: $lightPurple;
 }
 
+svg {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  // transform: translateY(-50%);
+}
+
 // From tablet size (768px)
 @media (min-width: 48em) {
   .monogram {

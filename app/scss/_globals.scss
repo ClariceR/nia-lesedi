@@ -58,6 +58,10 @@ a:hover {
   &-ai-c {
     align-items: center;
   }
+
+  &-ai-bl {
+    align-items: baseline;
+  }
 }
 
 //Container
@@ -67,6 +71,6 @@ a:hover {
 
 @media (min-width: 48em) {
   .container {
-    padding: 4.0625rem 6.875rem 3.125rem 6.875rem;
+    padding: 3.125rem 6.875rem 3.125rem 6.875rem;
   }
 }
