@@ -228,6 +228,7 @@ figcaption {
   color: #3b243d;
   font-size: 0.875rem;
   letter-spacing: 0.0625rem;
+  text-transform: uppercase;
   padding: 0.625rem 0 2.5rem 0;
 }
 
