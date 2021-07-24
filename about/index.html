@@ -1,0 +1,122 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href=""> -->
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS and JS -->
+    <link rel="stylesheet" href="/dist/css/style.css" />
+    <script defer src="/app/js/script.js"></script>
+    <title>About Nia</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="flex flex-jc-sb flex-ai-c">
+          <a href="/" class="header__logo">
+            <img src="/img/nia-logo.svg" alt="Nia Lesedi" />
+          </a>
+
+          <!-- Hamburger Menu button only visible on mobile -->
+          <a id="btnHamburger" href="#" class="header__mobile_menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+
+          <!-- Nav menu only visible on Desktop -->
+          <ul class="header__desktop_menu flex flex-ai-bl">
+            <li><a class="menu_item" href="#quote">Portfolio</a></li>
+            <li>
+              <a target="_blank" href="https://www.instagram.com/"
+                ><img class="insta-menu" src="/img/instagram.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Nav menu only visible on Mobile -->
+        <nav class="header__mobile_menu hide">
+          <ul>
+            <li><a class="menu_item" href="#">Portfolio</a></li>
+            <li>
+              <a
+                class="menu_item"
+                target="_blank"
+                href="https://www.instagram.com/"
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="about grid">
+          <div class="grid-item">
+            <figure>
+              <div class="img-about-wrapper">
+                <a href=""
+                  ><img
+                    class="img-about"
+                    src="/img/jessica-felicio-YEbFUPYfUlo-unsplash.jpeg"
+                    alt="Girl wearing a green face mask and a t-shirt that says: Fear Kill Dreams. She is standing in front of a graffiti mural."
+                /></a>
+                <img src="/img/nia-monogram-gold.svg" class="watermark" />
+              </div>
+            </figure>
+          </div>
+          <div class="grid-item">
+            <div class="about__content">
+              <h2 class="about__title">About me</h2>
+              <p class="about__text">
+                My work focuses on candid photographs taken on location at
+                events for women’s rights, places where women are owning their
+                space, and fleeting encounters on the streets.
+              </p>
+              <p class="about__text">
+                The viewer is engulfed in real moments of strength,
+                vulnerability, and solidarity.
+              </p>
+            </div>
+            <footer class="contact-footer">
+        <div class="contact_wrapper flex flex-jc-sb flex-ai-fe">
+          <div class="left-side">
+            <address class="contact">
+              <p>555 555 5555</p>
+              <p>hello@nialesedi.me</p>
+            </address>
+          </div>
+          <div class="right-side flex flex-column">
+            <div>
+              <img class="monogram" src="/img/nia-monogram-gold.svg" alt="" />
+          </div>
+        </div>
+      </footer>
+          </div>
+        </section>
+        <h6 class="credits">Credits: Hero, Jeanbaptiste Burbaud. Yes dreams, Jaqueline Fritz. Yes equality, Anna Shvets. Yes respect, Anna Shvets. Yes kindness, Lucas Guimaraes. Yes peace, Keira Burton. Yes health, John Arano. Nia Lesedi, Jessica Felicio.</h6>
+      </main>
+      
+    </div>
+    <!-- end of container -->
+    <footer class="footer">
+      <h6>
+        Designed and coded by
+        <a class="cla-link" target="_blank" href="https://github.com/ClariceR"
+          >Clarice</a
+        >
+        :D
+      </h6>
+    </footer>
+  </body>
+</html>
