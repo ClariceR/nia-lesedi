@@ -77,6 +77,12 @@ a:hover {
           align-items: baseline;
 }
 
+.flex-ai-fe {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 .container {
   padding: 1.25rem 1rem 1rem 1rem;
 }
@@ -219,6 +225,7 @@ figure {
 }
 
 figcaption {
+  color: #3b243d;
   font-size: 0.875rem;
   letter-spacing: 0.0625rem;
   padding: 0.625rem 0 2.5rem 0;
@@ -260,7 +267,7 @@ img.watermark {
 }
 
 .monogram {
-  margin: 1.5rem 0 1rem 0;
+  margin-top: 1.5rem;
   width: 50px;
   height: 50px;
 }
@@ -270,10 +277,21 @@ address {
   color: #3b243d;
 }
 
-.flickr {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  margin-bottom: 1rem;
+.right-side {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.desktop_footer-menu {
+  text-align: right;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  margin: 0;
+}
+
+.footer_menu_item:hover {
+  color: #a1a6d4;
 }
 
 .footer {
@@ -298,6 +316,15 @@ svg {
   margin: 0 auto;
   position: relative;
   top: 50%;
+}
+
+@media (max-width: 47.9375em) {
+  .social-icon {
+    margin-bottom: 1rem;
+  }
+  .desktop_footer-menu {
+    display: none;
+  }
 }
 
 @media (min-width: 48em) {

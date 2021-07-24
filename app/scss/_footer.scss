@@ -1,5 +1,5 @@
 .monogram {
-  margin: 1.5rem 0 1rem 0;
+  margin-top: 1.5rem;
   width: 50px;
   height: 50px;
 }
@@ -9,9 +9,19 @@ address {
   color: $darkPurple;
 }
 
-.flickr {
-  align-self: flex-end;
-  margin-bottom: 1rem;
+.right-side {
+  align-items: flex-end;
+}
+
+.desktop_footer-menu {
+  text-align: right;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  margin: 0;
+}
+
+.footer_menu_item:hover {
+  color: $lightPurple;
 }
 
 .footer {
@@ -36,7 +46,16 @@ svg {
   margin: 0 auto;
   position: relative;
   top: 50%;
-  // transform: translateY(-50%);
+}
+
+// Mobile only
+@media (max-width: 47.9375em) {
+  .social-icon {
+    margin-bottom: 1rem;
+  }
+  .desktop_footer-menu {
+    display: none;
+  }
 }
 
 // From tablet size (768px)
@@ -47,3 +66,4 @@ svg {
     height: 60px;
   }
 }
+
