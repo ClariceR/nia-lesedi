@@ -19,8 +19,27 @@ figcaption {
   padding: 0.625rem 0 2.5rem 0;
 }
 
+.img-wrapper {
+  position: relative;
+  // display: inline-block;
+}
+
+.img-wrapper:hover img.watermark {
+  display: block;
+}
+
+img.watermark {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  opacity: 0.6;
+  display: none;
+}
+
 .line {
-    border-top: 2px solid $lightPurple;
+  border-top: 2px solid $lightPurple;
 }
 
 // From tablet size (768px)
