@@ -1,3 +1,7 @@
+.grid-about {
+  display: grid;
+}
+
 .img-about {
   width: 100%;
   height: 25rem;
@@ -8,6 +12,8 @@
 .about__title {
   color: $gold;
   text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-top: 1.5rem;
 }
 
 .about__text {
@@ -16,16 +22,24 @@
   font-style: italic;
 }
 
+.monogram-about {
+  margin-top: 1.5rem;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 1rem;
+}
+
 .credits {
-    margin-top: 2rem;
-    color: $lightPurple;
+  margin-top: 2rem;
+  color: $lightPurple;
 }
 
 // From tablet size (768px)
 @media (min-width: 48em) {
-  .grid {
+  .grid-about {
     grid-template-columns: 1fr 2fr;
     gap: 7.125rem;
+    align-items: end;
   }
   .img-about-wrapper {
     width: 29.375rem;
@@ -38,7 +52,6 @@
   }
   .about__text {
     font-size: 1.125rem;
-    letter-spacing: 1px;
     line-height: 1.9;
   }
 }
