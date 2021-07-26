@@ -27,7 +27,7 @@
           </a>
 
           <!-- Hamburger Menu button only visible on mobile -->
-          <a id="btnHamburger" href="#" class="header__mobile_menu-btn">
+          <a id="menu-btn" href="#" class="header__mobile_menu-btn">
             <span></span>
             <span></span>
             <span></span>
@@ -48,19 +48,23 @@
         </nav>
 
         <!-- Nav menu only visible on Mobile -->
-        <nav class="header__mobile_menu hide">
-          <ul>
-            <li><a class="menu_item" href="#">Portfolio</a></li>
-            <li><a class="menu_item" href="#">About / Contact</a></li>
-            <li>
-              <a
-                class="menu_item"
-                target="_blank"
-                href="https://www.instagram.com/"
-                >Instagram</a
-              >
-            </li>
-          </ul>
+        <nav class="mobile-menu-wrapper">
+          <div class="header__mobile_menu flex flex-column flex-jc-c flex-ai-c">
+            <ul>
+              <li><a class="menu_item" href="#">Portfolio</a></li>
+              <div class="line-menu"></div>
+              <li><a class="menu_item" href="#">About / Contact</a></li>
+              <div class="line-menu"></div>
+              <li>
+                <a
+                  class="menu_item"
+                  target="_blank"
+                  href="https://www.instagram.com/"
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
         </nav>
       </header>
 

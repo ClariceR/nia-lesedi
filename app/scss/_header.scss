@@ -1,5 +1,6 @@
 .header {
-  padding-bottom: 1.625rem;
+  // padding-bottom: 1.625rem;
+  height: 2.75rem;
   &__mobile_menu-btn {
     > span {
       display: block;
@@ -26,9 +27,18 @@
   }
 
   &__mobile_menu {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 100%;
-    margin-top: 2rem;
-    background-color: $darkPurple;
+    height: 30.625rem;
+    margin-top: 1.4375rem;
+    background-color: $darkPurpleAlpha;
+
+    ul {
+      width: 80vw;
+    }
 
     li {
       font-weight: 300;
@@ -72,6 +82,14 @@
   }
 }
 
+.mobile-menu-wrapper {
+  position: relative;
+}
+
+.line-menu {
+  border-top: 2px solid $lightPurple;
+}
+
 // -- Media queries --
 
 // Mobile only
@@ -91,6 +109,7 @@
 // From tablet size (768px)
 @media (min-width: 48em) {
   .header {
+    height: 5.625rem;
     &__mobile_menu-btn {
       display: none;
     }
