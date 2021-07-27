@@ -111,6 +111,24 @@ a:hover {
   }
 }
 
+@-webkit-keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
 .header {
   height: 2.75rem;
 }
@@ -204,6 +222,16 @@ a:hover {
 
 .line-menu {
   border-top: 2px solid #a1a6d4;
+}
+
+.anim-fade-in {
+  -webkit-animation: fade-in 300ms ease-in-out forwards;
+          animation: fade-in 300ms ease-in-out forwards;
+}
+
+.anim-fade-out {
+  -webkit-animation: fade-out 300ms ease-in-out forwards;
+          animation: fade-out 300ms ease-in-out forwards;
 }
 
 @media (max-width: 47.9375em) {

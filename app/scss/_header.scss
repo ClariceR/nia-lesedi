@@ -27,6 +27,7 @@
   }
 
   &__mobile_menu {
+    // visibility: hidden;
     position: absolute;
     top: 0;
     left: 50%;
@@ -77,7 +78,6 @@
       margin: 0 auto;
       position: relative;
       top: 50%;
-      // transform: translateY(-50%);
     }
   }
 }
@@ -88,6 +88,14 @@
 
 .line-menu {
   border-top: 2px solid $lightPurple;
+}
+
+.anim-fade-in {
+  animation: fade-in 300ms ease-in-out forwards;
+}
+
+.anim-fade-out {
+  animation: fade-out 300ms ease-in-out forwards;
 }
 
 // -- Media queries --
