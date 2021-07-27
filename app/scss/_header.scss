@@ -86,6 +86,8 @@
 }
 
 .line-menu {
+  width: 90%;
+  align-self: center;
   border-top: 2px solid $lightPurple;
 }
 
@@ -100,7 +102,7 @@
 // -- Media queries --
 
 // Mobile only
-@media (max-width: 47.9375em) {
+@media (max-width: 50.75em) {
   .header {
     &__logo {
       img {
@@ -114,7 +116,7 @@
 }
 
 // From tablet size (768px)
-@media (min-width: 48em) {
+@media (min-width: 50.8125em) {
   .header {
     height: 5.625rem;
     &__mobile_menu-btn {

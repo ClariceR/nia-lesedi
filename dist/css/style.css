@@ -87,7 +87,7 @@ a:hover {
   padding: 1.25rem 1rem 1rem 1rem;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 50.8125em) {
   .container {
     padding: 3.125rem 6.875rem 3.125rem 6.875rem;
   }
@@ -221,6 +221,10 @@ a:hover {
 }
 
 .line-menu {
+  width: 90%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   border-top: 2px solid #a1a6d4;
 }
 
@@ -234,7 +238,7 @@ a:hover {
           animation: fade-out 300ms ease-in-out forwards;
 }
 
-@media (max-width: 47.9375em) {
+@media (max-width: 50.75em) {
   .header__logo img {
     width: 9rem;
   }
@@ -243,7 +247,7 @@ a:hover {
   }
 }
 
-@media (min-width: 48em) {
+@media (min-width: 50.8125em) {
   .header {
     height: 5.625rem;
   }
@@ -263,7 +267,7 @@ a:hover {
   height: 30.625rem;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 50.8125em) {
   .hero {
     height: 80vh;
   }
@@ -337,7 +341,7 @@ img.watermark {
   border-top: 2px solid #a1a6d4;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 50.8125em) {
   .grid {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
@@ -411,7 +415,7 @@ svg {
   }
 }
 
-@media (min-width: 48em) {
+@media (min-width: 47.875em) {
   .monogram {
     margin-top: 2rem;
     width: 60px;
@@ -458,17 +462,17 @@ svg {
   color: #a1a6d4;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 50.8125em) {
   .grid-about {
-    -ms-grid-columns: 1fr 2fr;
-        grid-template-columns: 1fr 2fr;
+    -ms-grid-columns: 4fr 5fr;
+        grid-template-columns: 4fr 5fr;
     gap: 7.125rem;
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: end;
   }
   .img-about-wrapper {
-    width: 29.375rem;
+    max-width: 37.5rem;
   }
   .img-about {
     height: 35.625rem;

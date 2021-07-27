@@ -44,7 +44,7 @@ img.watermark {
 }
 
 // From tablet size (768px)
-@media (min-width: 48em) {
+@media (min-width: 50.8125em) {
   .grid {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: fit-content(100%);

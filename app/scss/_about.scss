@@ -35,14 +35,14 @@
 }
 
 // From tablet size (768px)
-@media (min-width: 48em) {
+@media (min-width: 50.8125em) {
   .grid-about {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 4fr 5fr;
     gap: 7.125rem;
     align-items: end;
   }
   .img-about-wrapper {
-    width: 29.375rem;
+    max-width: 37.5rem;
   }
   .img-about {
     height: 35.625rem;
