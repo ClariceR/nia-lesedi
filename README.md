@@ -48,7 +48,7 @@ Her users should be able to:
 
 ### Links
 
-- Live Site URL: [Nia Lesedi](https://claricer.github.io/nia-photograpy-website/)
+- Live Site URL: [Nia Lesedi](https://claricer.github.io/nia-lesedi/)
 
 ## My process
 
