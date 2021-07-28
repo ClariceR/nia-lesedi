@@ -1,4 +1,4 @@
-# Nia Lesedi - Feminist photographer page
+# Nia Lesedi - Feminist Photographer
 
 ![Preview for the Nia Lesedi web page](./Screenshot-Nia-desktop.png)
 
@@ -48,7 +48,7 @@ Her users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Nia Lesedi](https://claricer.github.io/nia-photograpy-website/)
 
 ## My process
 
