@@ -77,6 +77,8 @@ The next step was to build the wireframe in Adobe XD from the paper wireframe fi
 
 I followed with creating a colour scheme and a style tile. The colour scheme consist of three colours. The typography uses one typeface with different weights, and style to safely create interesting variation.
 
+As a bounus challenge I also created the logo.
+
 ### What I learned
 
 Starting a project from a blank page can be overwhelming. I learned that by following specific step by step planning makes it not only possible, but actually enjoyable.
