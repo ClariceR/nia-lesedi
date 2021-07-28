@@ -1,5 +1,5 @@
 .header {
-  // padding-bottom: 1.625rem;
+
   height: 2.75rem;
   &__mobile_menu-btn {
     > span {
@@ -101,7 +101,7 @@
 
 // -- Media queries --
 
-// Mobile only
+// Mobile only (max size 812px)
 @media (max-width: 50.75em) {
   .header {
     &__logo {
@@ -115,7 +115,7 @@
   }
 }
 
-// From tablet size (768px)
+// From tablet size (813px)
 @media (min-width: 50.8125em) {
   .header {
     height: 5.625rem;
