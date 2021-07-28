@@ -26,7 +26,7 @@ Thanks for checking out my project.
 
 The challenge was to build out this photographer's portfolio page from scratch.
 
-It started with "interviewing" the ficticious client. Her goals for the website are:
+It started with "interviewing" the fictitious client. Her goals for the website are:
 
 - It should showcase her work and entice magazines to purchase her photos for publication.
 - It should help her show her work more widely in galleries, locally and abroad.
@@ -75,13 +75,13 @@ Then I developed the site structure, layout and navigation.
 
 The next step was to build the wireframe in Adobe XD from the paper wireframe first created.
 
-I followed with creating a color scheme and a style tile. The color scheme consist of three colors. The typography uses one typeface with different weights, and style to safely create interesting variation.
+I followed with creating a colour scheme and a style tile. The colour scheme consist of three colours. The typography uses one typeface with different weights, and style to safely create interesting variation.
 
 ### What I learned
 
-Starting a project from a blank page can be overwhealming. I learned that by following specific step by step planning makes it not only possible, but actually enjoyable.
+Starting a project from a blank page can be overwhelming. I learned that by following specific step by step planning makes it not only possible, but actually enjoyable.
 
-I learned that the design goes a long way from the first draft, and consistent analisis and reiteration prevents us from runnign in circles when creating something that uttimatly has a function and need to solve a specific problem.
+I learned that the design will develop a lot from the first draft, and consistent analysis and reiteration prevents us from running in circles when creating something that ultimately has a function and need to solve a specific problem.
 
 When coding the website I learned that creating containers and wrappers helps to keep everything together, and it's very satisfying having your CSS behaving the way it should <3 The more I practice building things, the less fiddling and struggling I find them :)
 
@@ -100,7 +100,7 @@ I am really proud of the hamburger menu animation I came up with. Of course it c
     }
 ```
 
-I'm also proud of how I managed to make the ovelay mobile menu line up perfectly with the image underneath. If you happen to see it messed up, please let me know so I can investigate!
+I'm also proud of how I managed to make the overlay mobile menu line up perfectly with the image underneath. If you happen to see it messed up, please let me know so I can investigate!
 
 ### Continued development
 
